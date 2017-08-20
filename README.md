@@ -7,17 +7,23 @@ Returns the version of installed Git
 
 ### Initialize Git
 git-init - Create an empty Git repository or reinitialize an existing one
-`git init`
+```
+git init
+```
 https://git-scm.com/docs/git-init
 
 ### Git Status
 Show the working tree status
-`git status`
+```
+git status
+```
 https://git-scm.com/docs/git-status
 
 ### Git Add
 Add file contents to the index
-`git add <file/folder>`
+```
+git add <file/folder>
+```
 https://git-scm.com/docs/git-add
 
 ### Git Remove
@@ -27,57 +33,79 @@ https://git-scm.com/docs/git-rm
 
 ### Git Commit
 Record changes to the repository
-`git commit -m 'message'`
+```
+git commit -m 'message'
+```
 
 add and commit (git commit -am '')
-`git commit -a -m ''`
+```
+git commit -a -m ''
+```
 
 https://git-scm.com/docs/git-commit
 
 ### Git Push
 Update remote refs along with associated objects
-`git push -u origin master` 
+```
+git push -u origin master
+``` 
 OR 
-`git push`
+```
+git push
+```
 https://git-scm.com/docs/git-push
 
 ### Git Add
 Add file contents to the index
 (would add all the files shown in git status)
-`git add .`
+```
+git add .
+```
 https://git-scm.com/docs/git-add
 
 ### Git Diff
 Show changes between commits, commit and working tree, etc
 (see the difference)
-`git diff`
+```
+git diff
+```
 https://git-scm.com/docs/git-diff
 
 ### Git Clone
 Clone a repository into a new directory
-`git clone https://github.com/USER-NAME/REPOSITORY-NAME YOUR-FOLDER-NAME-YOU-WANT`
+```
+git clone https://github.com/USER-NAME/REPOSITORY-NAME YOUR-FOLDER-NAME-YOU-WANT
+```
 https://git-scm.com/docs/git-clone
 
 ### Git Checkout
 Switch branches or restore working tree files
-`git checkout BRANCH_NAME`
+```
+git checkout BRANCH_NAME
+```
 https://git-scm.com/docs/git-checkout
 
 ### Git Log
 Show commit logs
-`git log`
+```
+git log
+```
 https://git-scm.com/docs/git-log
 
 ### Git Branch
 List, create, or delete branches
 (to create branch from master)
-`git branch BRANCH_NAME` 
+```
+git branch BRANCH_NAME
+``` 
 https://git-scm.com/docs/git-branch
 
 ### Git Config
 Get and set repository or global options
 
-`git config —list (to see the git config)`
-`git config —global user.name "CHANGE USER NAME"`
-`git config —global user.email "CHANGE USER EMAIL"`
+```
+git config —list (to see the git config)
+git config —global user.name "CHANGE USER NAME"
+git config —global user.email "CHANGE USER EMAIL"
+```
 https://git-scm.com/docs/git-config
