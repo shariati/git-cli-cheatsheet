@@ -100,6 +100,13 @@ git branch BRANCH_NAME
 ``` 
 https://git-scm.com/docs/git-branch
 
+### Git Merge
+to merge a branch into master 
+```
+git merge [branch-name]
+```
+https://git-scm.com/docs/git-merge
+
 ### Git Config
 Get and set repository or global options
 
